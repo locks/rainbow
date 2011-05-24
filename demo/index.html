@@ -1,0 +1,38 @@
+<script type="text/javascript" src="jquery.min,js"></script>
+<script type="text/javascript" src="jquery.jrainbow.js"></script>
+<script type="text/javascript">
+$('.firstRainbow').jrainbow();
+
+$('#secondRainbow').jrainbow({
+    colors: ['#FFF', '444']
+});
+	
+$('#r1').jrainbow();
+$('#r2').jrainbow({
+    offset: 1
+});
+
+var i      = 0,
+    colors = ['#666', '#ADA', 'rgba(100,100,100,0.5)', 'violet', 'blue', 'red'];
+
+function cycle() {
+    $('#single').jrainbow({
+        offset           :      i,
+        colors           : colors,
+        backgroundOffset :      1,
+        skipWhitespace   :   true  });
+
+    i++;
+}
+
+setInterval(cycle, 1000);
+</script>
+
+<div id="firstRainbow">1234567890</div>
+<div id="secondRainbow">1234567890</div>
+
+<div id="r1">1234567890</div>
+<div id="r2">1234567890</div>
+
+<div id="single">single elements and fucking jsfiddle just killed my farking shit hole fuck jesus christ.</div>
+
