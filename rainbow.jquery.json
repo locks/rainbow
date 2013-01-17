@@ -1,0 +1,26 @@
+{ "name": "rainbow"
+, "title": "jQuery Rainbow"
+, "description": "Make your text shine like the rainbow"
+, "keyboards": [ "color"
+               , "animation"
+               ]
+, "version": "1.0.0"
+, "author" : { "name": "Ricardo Mendes"
+             , "url": "http://locks.io"
+             }
+, "maintainers": [ { "name": "Ricardo Mendes",
+                   , "email": "ricardo@locks.io"
+                   , "url": "http://locks.io"
+                   }
+                 ]
+, "licenses": [ { "type": "MIT"
+                , "url": 
+                }
+              ]
+, "bugs": "https://github.com/locks/rainbow/issues"
+, "homepage": "https://locks.github.com/rainbow"
+, "docs": "https://github.com/locks/rainbow"
+, "download": "https://raw.github.com/locks/rainbow/master/jquery.rainbow.js"
+, "dependencies": { "jquery": ">=1.5"
+                  }
+}
