@@ -4,7 +4,7 @@
 , "keyboards": [ "color"
                , "animation"
                ]
-, "version": "1.0.0"
+, "version": "1.0.1"
 , "author" : { "name": "Ricardo Mendes"
              , "url": "http://locks.io"
              }
@@ -14,7 +14,7 @@
                    }
                  ]
 , "licenses": [ { "type": "MIT"
-                , "url":
+                , "url": "https://github.com/locks/rainbow/blob/master/LICENSE"
                 }
               ]
 , "bugs": "https://github.com/locks/rainbow/issues"
