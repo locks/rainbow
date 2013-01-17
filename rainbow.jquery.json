@@ -8,13 +8,13 @@
 , "author" : { "name": "Ricardo Mendes"
              , "url": "http://locks.io"
              }
-, "maintainers": [ { "name": "Ricardo Mendes",
+, "maintainers": [ { "name": "Ricardo Mendes"
                    , "email": "ricardo@locks.io"
                    , "url": "http://locks.io"
                    }
                  ]
 , "licenses": [ { "type": "MIT"
-                , "url": 
+                , "url":
                 }
               ]
 , "bugs": "https://github.com/locks/rainbow/issues"
